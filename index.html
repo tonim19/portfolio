@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Toni Morovic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -13,110 +18,107 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <title>Toni Morović</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar">
-        <div class="brand-title">TM</div>
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-          <ul>
+    <div id="portfolio">
+      <header>
+        <nav class="navbar">
+          <div class="brand-title">TM</div>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-links">
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#work">WORK</a></li>
             <li><a href="#contact">CONTACT</a></li>
           </ul>
-        </div>
-      </nav>
-      <section id="home">
-        <div class="greeting">
-          <div class="line"></div>
-          <h2>HELLO THERE</h2>
-        </div>
-        <div class="lead">
-          <div class="left">
-            <h1>I am Toni Morović.</h1>
-            <h1>I am a Web Developer</h1>
-          </div>
-          <div class="right">
-            <a href="#work">PROJECTS</a>
-            <a href="#about">MORE ABOUT ME</a>
-          </div>
-        </div>
-        <a href="#about">SCROLL DOWN <i class="fas fa-chevron-down"></i></a>
-      </section>
-    </header>
-    <main>
-      <section id="about">
-        <h3>ABOUT</h3>
-        <h2>Personal Info</h2>
-        <div class="lead">
-          <div class="left">
-            <h4>About me</h4>
-            <p>
-              My name is Toni Morović and I'm a passionate Frontend Web
-              Developer. Skilled in HTML, CSS, Javascript and React, also
-              learned Backend technologies to get a broader look of how complete
-              Web Development works.
-            </p>
-            <br />
-            <p>
-              I love to explore and learn new technologies, so whether you have
-              an exciting project that i could contribute to, job opportunity or
-              just chat about tech. Feel free to contact me.
-            </p>
-          </div>
-          <div class="right">
-            <h4>Skills</h4>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JAVASCRIPT</li>
-              <li>BOOTSTRAP</li>
-              <li>REACT</li>
-              <li>GIT</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section id="work">
-        <div class="work-inner">
-          <h3>WORK</h3>
-          <h2>Latest Projects</h2>
-          <div class="grid">
-            <div>
-              <img src="" alt="" />
-              <h4></h4>
-              <p></p>
-              <a href=""></a>
+        </nav>
+        <section id="home">
+          <div class="lead">
+            <div class="desc">
+              <h1>Toni Morović.</h1>
+              <p>Frontend Web Developer</p>
             </div>
-            <div>
-              <img src="" alt="" />
-              <h4></h4>
-              <p></p>
-              <a href=""></a>
-            </div>
-            <div>
-              <img src="" alt="" />
-              <h4></h4>
-              <p></p>
-              <a href=""></a>
-            </div>
-            <div>
-              <img src="" alt="" />
-              <h4></h4>
-              <p></p>
-              <a href=""></a>
+            <div class="descbtns">
+              <a href="#work">PROJECTS</a>
+              <a href="#about">MORE ABOUT ME</a>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
-    <footer></footer>
+          <a href="#about">SCROLL DOWN <i class="fas fa-chevron-down"></i></a>
+        </section>
+      </header>
+      <main>
+        <section id="about">
+          <h3>ABOUT</h3>
+          <h2>Personal Info</h2>
+          <div class="lead">
+            <div class="left">
+              <h4>About me</h4>
+              <p>
+                My name is Toni Morović and I'm a passionate Frontend Web
+                Developer. Skilled in HTML, CSS, Javascript and React, also
+                learned Backend technologies to get a broader look of how
+                complete Web Development works.
+              </p>
+              <br />
+              <p>
+                I love to explore and learn new technologies, so whether you
+                have an exciting project that i could contribute to, job
+                opportunity or just chat about tech. Feel free to contact me.
+              </p>
+            </div>
+            <div class="right">
+              <h4>Skills</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>BOOTSTRAP</li>
+                <li>REACT</li>
+                <li>GIT</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="work">
+          <div class="work-inner">
+            <h3>WORK</h3>
+            <h2>Latest Projects</h2>
+            <div class="grid">
+              <div>
+                <img src="" alt="" />
+                <h4></h4>
+                <p></p>
+                <a href=""></a>
+              </div>
+              <div>
+                <img src="" alt="" />
+                <h4></h4>
+                <p></p>
+                <a href=""></a>
+              </div>
+              <div>
+                <img src="" alt="" />
+                <h4></h4>
+                <p></p>
+                <a href=""></a>
+              </div>
+              <div>
+                <img src="" alt="" />
+                <h4></h4>
+                <p></p>
+                <a href=""></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer></footer>
+    </div>
     <script src="./js/app.js"></script>
   </body>
 </html>
