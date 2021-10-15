@@ -202,6 +202,7 @@ a i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 3rem;
   min-height: 100vh;
   width: 100vw;
 }
@@ -257,6 +258,7 @@ a i {
   width: 100vw;
   margin: 0 auto;
   text-align: center;
+  padding-top: 3rem;
 }
 
 .projects {
@@ -274,7 +276,7 @@ a i {
       -ms-flex-align: center;
           align-items: center;
   width: 80vw;
-  margin: 2rem auto 3rem auto;
+  margin: 0 auto;
 }
 
 .projects img {
