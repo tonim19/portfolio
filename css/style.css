@@ -12,16 +12,16 @@ body {
 }
 
 h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.5rem 0 2rem 0;
+}
+
+h2 {
   font-size: 3rem;
   font-weight: 300;
   margin: 2rem 0 1rem 0;
   color: rgb(255, 187, 41);
-}
-
-h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 0.5rem 0 2rem 0;
 }
 
 header {
@@ -241,4 +241,63 @@ a i {
 .projects h4 {
   font-size: 1.5rem;
   color: #000;
+}
+
+#contact {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  text-align: center;
+}
+
+#contact h2 {
+  padding-top: 5rem;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 70vh;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+#contact label {
+  align-self: flex-start;
+  margin: 1rem 2rem;
+}
+
+#contact input {
+  width: 80vw;
+  padding: 1rem;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(65, 63, 63, 0.671);
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+}
+
+#contact textarea {
+  width: 80vw;
+  margin: 0 0 2rem 0;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(65, 63, 63, 0.671);
+  resize: none;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+}
+
+#contact input[type="submit"] {
+  background-color: #fff;
+  color: #000;
+}
+
+#copy {
+  padding: 2rem 0;
 }
