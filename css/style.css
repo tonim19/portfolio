@@ -228,13 +228,14 @@ a i {
   justify-content: center;
   align-items: center;
   width: 80vw;
-  margin: 0 auto;
+  margin: 2rem auto 3rem auto;
 }
 
 .projects img {
   margin: 2rem 0 1rem 0;
   width: 400px;
   height: auto;
+  border-radius: 15px;
 }
 
 .projects h4 {
