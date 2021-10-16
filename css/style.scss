@@ -144,13 +144,12 @@ a {
 }
 
 .descbtns {
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 .descbtns a {
   padding: 0.8rem;
-  margin: 2rem 1rem;
-
+  margin: 3rem 1rem;
   background-color: rgba(255, 187, 41, 0.753);
   border-radius: 5px;
 }
@@ -174,7 +173,9 @@ a i {
   align-items: center;
   padding-top: 3rem;
   min-height: 100vh;
-  width: 100vw;
+  width: 90vw;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .lead {
@@ -203,7 +204,7 @@ a i {
 
 .right ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -218,7 +219,7 @@ a i {
 
 #work {
   min-height: 100vh;
-  width: 100vw;
+  width: 90vw;
   margin: 0 auto;
   text-align: center;
   padding-top: 3rem;
@@ -236,7 +237,7 @@ a i {
 .projects img {
   margin: 2rem 0 1rem 0;
   width: 350px;
-  height: auto;
+  height: 300px;
   border-radius: 15px;
 }
 
@@ -274,7 +275,7 @@ a i {
 }
 
 #contact input {
-  width: 80vw;
+  width: 100%;
   padding: 1rem;
   border: none;
   border-radius: 15px;
@@ -285,7 +286,7 @@ a i {
 }
 
 #contact textarea {
-  width: 80vw;
+  width: 100%;
   margin: 0 0 2rem 0;
   border: none;
   border-radius: 15px;
@@ -297,7 +298,7 @@ a i {
 }
 
 #contact button[type="submit"] {
-  width: 80vw;
+  width: 100%;
   padding: 1rem;
   border: none;
   border-radius: 15px;
