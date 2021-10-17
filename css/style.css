@@ -285,7 +285,11 @@ a i {
 .projects img {
   margin: 2rem 0 1rem 0;
   width: 350px;
-  height: 300px;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
   border-radius: 15px;
 }
 
