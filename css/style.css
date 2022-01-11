@@ -72,7 +72,7 @@ a i {
           transform: translateX(0%);
   display: none;
   position: absolute;
-  background-color: #222222;
+  background-color: black;
   z-index: 20;
   padding-top: 9rem;
 }
@@ -85,7 +85,7 @@ a i {
 .nav-links li a {
   text-decoration: none;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .nav-links li a:hover {
@@ -146,7 +146,7 @@ a i {
   min-height: 100vh;
   width: 100vw;
   color: #fff;
-  background: url("../img/cover2.webp") center center/cover no-repeat;
+  background: url("../img/cover.jpg") center/cover no-repeat;
 }
 
 .lead {
@@ -175,6 +175,10 @@ a i {
   margin: 3rem 1rem;
   background-color: rgba(255, 187, 41, 0.753);
   border-radius: 5px;
+}
+
+.descbtns a:hover {
+  background-color: #ffbb29;
 }
 
 .nav-active {
