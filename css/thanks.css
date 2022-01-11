@@ -57,13 +57,13 @@ button {
   color: #000;
 }
 
-button a {
-  text-decoration: none;
-  color: #000;
-}
-
 button:hover {
   background-color: #ffbb29;
   color: #fff;
+}
+
+button a {
+  text-decoration: none;
+  color: #000;
 }
 /*# sourceMappingURL=thanks.css.map */

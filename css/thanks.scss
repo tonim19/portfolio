@@ -45,14 +45,14 @@ button {
   cursor: pointer;
   background-color: #fff;
   color: #000;
-}
 
-button a {
-  text-decoration: none;
-  color: #000;
-}
+  &:hover {
+    background-color: rgb(255, 187, 41);
+    color: #fff;
+  }
 
-button:hover {
-  background-color: rgb(255, 187, 41);
-  color: #fff;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 }

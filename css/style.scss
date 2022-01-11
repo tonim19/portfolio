@@ -21,13 +21,16 @@ h2 {
   font-size: 3rem;
   font-weight: 300;
   margin: 2rem 0 1rem 0;
-  color: rgb(255, 187, 41);
+  color: #ffbb29;
 }
 
-header {
-  min-height: 100vh;
-  width: 100vw;
-  background: url("../img/cover2.webp") center center/cover no-repeat;
+a {
+  text-decoration: none;
+  color: #fff;
+
+  i {
+    color: rgb(255, 187, 41);
+  }
 }
 
 .navbar {
@@ -60,21 +63,21 @@ header {
   background-color: rgb(34, 34, 34);
   z-index: 20;
   padding-top: 9rem;
-}
 
-.nav-links li {
-  list-style: none;
-  padding: 2rem;
-}
+  li {
+    list-style: none;
+    padding: 2rem;
 
-.nav-links li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 2rem;
-}
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 2rem;
 
-.nav-links li a:hover {
-  color: rgb(255, 187, 41);
+      &:hover {
+        color: rgb(255, 187, 41);
+      }
+    }
+  }
 }
 
 .burger {
@@ -84,35 +87,34 @@ header {
   top: 1rem;
   right: 1rem;
   z-index: 30;
+
+  div {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
 }
 
-.burger div {
-  width: 35px;
-  height: 5px;
-  background-color: #fff;
-  margin: 6px 0;
-  transition: 0.4s;
+.active {
+  display: block;
 }
 
-.active .line1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
+.active {
+  .line1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
 
-/* Fade out the second bar */
-.active .line2 {
-  opacity: 0;
-}
+  .line2 {
+    opacity: 0;
+  }
 
-/* Rotate last bar */
-.active .line3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-9px, -7px);
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
+  .line3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-9px, -7px);
+  }
 }
 
 #home {
@@ -121,9 +123,10 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 92vh;
+  min-height: 100vh;
   width: 100vw;
   color: #fff;
+  background: url("../img/cover2.webp") center center/cover no-repeat;
 }
 
 .lead {
@@ -132,34 +135,26 @@ a {
 
 .desc {
   margin: 1rem 0;
-}
 
-.desc h1 {
-  font-size: 2.5rem;
-  margin: 0.5rem 0;
-}
+  h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+  }
 
-.desc p {
-  font-size: 1.2rem;
+  p {
+    font-size: 1.2rem;
+  }
 }
 
 .descbtns {
   margin: 3rem 0;
-}
 
-.descbtns a {
-  padding: 0.8rem;
-  margin: 3rem 1rem;
-  background-color: rgba(255, 187, 41, 0.753);
-  border-radius: 5px;
-}
-
-a i {
-  color: rgb(255, 187, 41);
-}
-
-.active {
-  display: block;
+  a {
+    padding: 0.8rem;
+    margin: 3rem 1rem;
+    background-color: rgba(255, 187, 41, 0.753);
+    border-radius: 5px;
+  }
 }
 
 .nav-active {
@@ -195,27 +190,27 @@ a i {
 
 .right {
   margin: 2rem 0 3rem 0;
-}
 
-.right h4 {
-  font-size: 1.7rem;
-  font-weight: 400;
-  margin: 0.8rem 0;
-}
+  h4 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin: 0.8rem 0;
+  }
 
-.right ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
-.right li {
-  padding: 1rem;
-  margin: 0.5rem;
-  list-style: none;
-  background-color: rgba(221, 221, 221, 0.568);
-  font-size: 1rem;
+  li {
+    padding: 1rem;
+    margin: 0.5rem;
+    list-style: none;
+    background-color: rgba(221, 221, 221, 0.568);
+    font-size: 1rem;
+  }
 }
 
 #work {
@@ -233,21 +228,20 @@ a i {
   align-items: center;
   width: 80vw;
   margin: 0 auto;
-}
 
-.projects img {
-  margin: 2rem 0 1rem 0;
-  width: 350px;
-  height: 320px;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 15px;
-}
+  img {
+    margin: 2rem 0 1rem 0;
+    width: 350px;
+    height: 320px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px;
+  }
 
-.projects h4 {
-  font-size: 1.5rem;
-
-  color: #000;
+  h4 {
+    font-size: 1.5rem;
+    color: #000;
+  }
 }
 
 #contact {
@@ -256,60 +250,60 @@ a i {
   background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
   text-align: center;
-}
 
-#contact h2 {
-  padding-top: 5rem;
-}
+  h2 {
+    padding-top: 5rem;
+  }
 
-#contact form {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  min-height: 70vh;
-  width: 80vw;
-  margin: 0 auto;
-}
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 70vh;
+    width: 80vw;
+    margin: 0 auto;
+  }
 
-#contact label {
-  align-self: flex-start;
-  margin: 1rem;
-}
+  label {
+    align-self: flex-start;
+    margin: 1rem;
+  }
 
-#contact input {
-  width: 100%;
-  padding: 1rem;
-  border: none;
-  border-radius: 15px;
-  background-color: rgba(65, 63, 63, 0.671);
-  color: #fff;
-  font-size: 1.3rem;
-  padding: 1rem 2rem;
-}
+  input {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(65, 63, 63, 0.671);
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+  }
 
-#contact textarea {
-  width: 100%;
-  margin: 0 0 2rem 0;
-  border: none;
-  border-radius: 15px;
-  background-color: rgba(65, 63, 63, 0.671);
-  resize: none;
-  color: #fff;
-  font-size: 1.3rem;
-  padding: 1rem 2rem;
-}
+  textarea {
+    width: 100%;
+    margin: 0 0 2rem 0;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(65, 63, 63, 0.671);
+    resize: none;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+  }
 
-#contact button[type="submit"] {
-  width: 100%;
-  padding: 1rem;
-  border: none;
-  border-radius: 15px;
-  font-size: 1.3rem;
-  padding: 1rem 2rem;
-  background-color: rgb(255, 187, 41);
-  color: #fff;
-  cursor: pointer;
+  button[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    background-color: rgb(255, 187, 41);
+    color: #fff;
+    cursor: pointer;
+  }
 }
 
 #copy {

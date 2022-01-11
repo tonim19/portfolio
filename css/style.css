@@ -25,10 +25,13 @@ h2 {
   color: #ffbb29;
 }
 
-header {
-  min-height: 100vh;
-  width: 100vw;
-  background: url("../img/cover2.webp") center center/cover no-repeat;
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a i {
+  color: #ffbb29;
 }
 
 .navbar {
@@ -107,25 +110,22 @@ header {
   transition: 0.4s;
 }
 
+.active {
+  display: block;
+}
+
 .active .line1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-/* Fade out the second bar */
 .active .line2 {
   opacity: 0;
 }
 
-/* Rotate last bar */
 .active .line3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-9px, -7px);
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
 }
 
 #home {
@@ -143,9 +143,10 @@ a {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  min-height: 92vh;
+  min-height: 100vh;
   width: 100vw;
   color: #fff;
+  background: url("../img/cover2.webp") center center/cover no-repeat;
 }
 
 .lead {
@@ -174,14 +175,6 @@ a {
   margin: 3rem 1rem;
   background-color: rgba(255, 187, 41, 0.753);
   border-radius: 5px;
-}
-
-a i {
-  color: #ffbb29;
-}
-
-.active {
-  display: block;
 }
 
 .nav-active {
