@@ -18,7 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/desktop.css" />
     <title>Toni Morović</title>
   </head>
   <body>
@@ -39,18 +39,18 @@
           </ul>
         </nav>
       </header>
-        <section id="home">
-          <div class="lead">
-            <div class="desc">
-              <h1>Toni Morović.</h1>
-              <p>Frontend Web Developer</p>
-            </div>
-            <div class="descbtns">
-              <a href="#work">PROJECTS</a>
-            </div>
+      <section id="home">
+        <div class="lead">
+          <div class="desc">
+            <h1>Toni Morović.</h1>
+            <p>Frontend Web Developer</p>
           </div>
-          <a href="#about">SCROLL DOWN <i class="fas fa-chevron-down"></i></a>
-        </section>
+          <div class="descbtns">
+            <a href="#work">PROJECTS</a>
+          </div>
+        </div>
+        <a href="#about">SCROLL DOWN <i class="fas fa-chevron-down"></i></a>
+      </section>
       <main>
         <section id="about">
           <h2>ABOUT</h2>
@@ -87,40 +87,59 @@
           </div>
         </section>
         <section id="work">
-            <h2>WORK</h2>
-            <h3>Latest Project</h3>
-            <div class="projects">
-              <div>
-                <a
-                  href="https://ecommerce-site19.netlify.app/"
-                  target="__blank"
-                >
-                  <img
-                    src="./img/Ecommerce-Site.webp"
-                    alt="Ecommerce-Site Image"
-                  />
-                  <h4>Ecommerce Site</h4>
-                  <p></p>
-                </a>
-              </div>
+          <h2>WORK</h2>
+          <h3>Latest Project</h3>
+          <div class="projects">
+            <div>
+              <a href="https://ecommerce-site19.netlify.app/" target="_blank">
+                <img
+                  src="./img/Ecommerce-Site.webp"
+                  alt="Ecommerce-Site Image"
+                />
+                <h4>Ecommerce Site</h4>
+                <p></p>
+              </a>
             </div>
+          </div>
         </section>
       </main>
       <footer id="contact">
         <h2>CONTACT</h2>
         <h3>Feel free to contact me</h3>
-        <form action="https://formsubmit.co/4f09ff64e648ed49f040cc6c70ef96fb" method="POST" />
-          <input type="hidden" name="_next" value="https://tonimorovic.netlify.app/thanks.html">
-          <input type="hidden" name="_captcha" value="false">
+        <form
+          action="https://formsubmit.co/4f09ff64e648ed49f040cc6c70ef96fb"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value="https://tonimorovic.netlify.app/thanks.html"
+          />
+          <input type="hidden" name="_captcha" value="false" />
           <label for="name">Name</label>
-          <input type="text" size="19" name="name" id="name" placeholder="Name">
+          <input
+            type="text"
+            size="19"
+            name="name"
+            id="name"
+            placeholder="Name"
+          />
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="Email">
+          <input type="email" name="email" id="email" placeholder="Email" />
           <label for="message">Message</label>
-          <textarea name="message" rows="5" cols="20" id="message" placeholder="Message"></textarea>
+          <textarea
+            name="message"
+            rows="5"
+            cols="20"
+            id="message"
+            placeholder="Message"
+          ></textarea>
           <button type="submit">Send message</button>
         </form>
-        <p id="copy">All rights reserved<br> &copy; Toni Morović 2022</p>
+        <p id="copy">
+          All rights reserved<br />
+          &copy; Toni Morović 2022
+        </p>
       </footer>
     </div>
     <script src="./js/app.js"></script>
